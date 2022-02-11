@@ -1,0 +1,44 @@
+{
+	"name" : "ETSAFOL SAITEP",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"Base" :
+	{
+		"surfaceSize" : 500,
+		"surfaceGravity" : 12,
+		"hasMapMarker" : false,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 15000,
+		"inclination" : 110,
+		"primaryBody" : "SUN",
+		"showOrbitLine" : true
+	},
+	"Star" :
+	{
+		"size" : 200,
+		"tint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 5,
+			"g" : 38,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarLuminosity" : 0.6
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assets/shipsix", "path" : "Assets/ShipSix.prefab" }
+		]
+
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"name" : "Nexus",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"Base" :
+	{
+		"surfaceSize" : 101,
+		"surfaceGravity" : 12,
+		"hasMapMarker" : false,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 3000,
+		"inclination" : 45,
+		"primaryBody" : "TIMBER_HEARTH",
+		"showOrbitLine" : true
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Default", "Name" : "Nexus", "audioFilePath" : "planets/assets/col_aUAuAuAUUAuAuuaUAuAUuAu.mp3", "SourceRadius" : 1, "detectionRadius": 300, "identificationRadius" : 200 }
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assets/ow_nexuscore", "path" : "Assets/Nexus_SYSTEM.prefab" }
+		],
+		"dialogue" :
+		[
+			{
+				"position": {"x": 1, "y": 11, "z": 0},
+				"xmlFile" : "planets/xml/console.xml"
+			}
+		]
+
+	}
+}

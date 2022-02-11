@@ -1,0 +1,131 @@
+<DialogueTree>
+	<NameField>???</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>...</Page>
+      		<Page>LIETFA KETOET.</Page>
+      		<Page>TYPE: SEESORT_ONE.</Page>
+      		<Page>OUTPUT SET: ONE, FROM ZERO.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What are you?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What is this?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Bye.</Text>
+				<DialogueTarget>End_Early</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>...</Page>
+			<Page>WE ARE SYSTEM.</Page>
+			<Page>WE OVERSEE THE NEXUS.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Nexus?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Bye.</Text>
+				<DialogueTarget>End_Early</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>...</Page>
+			<Page>THE NEXUS MAINTAINS REALITY.</Page>
+			<Page>IT IS ALSO A PRIMARY NODE POINT OF-</Page>
+			<Page>...</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Are you alright?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>...</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>...</Page>
+			<Page>SOMETHING HAS DAMAGED OUR STORAGE.</Page>
+			<Page>INACCESIBLE. INACCESIBLE. INACCESIBLE.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Inaccesible?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Who?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>End_Early</Name>
+		<Dialogue>
+			<Page>...</Page>
+			<Page>WE SEE.</Page>
+			<Page>YOU DONT HAVE ALL DAY.</Page>
+			<Page>GOODBYE.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>...</Page>
+			<Page>THEY WE-</Page>
+			<Page>*Entering low power mode. Please stand by.*</Page>
+			<Page>*Complete.*</Page>
+			<Page>*All lower functions disabled.*</Page>
+			<Page>*Resupply power to exit mode.*</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>*Shutting down communications*</Page>
+			<Page>*...*</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+</DialogueTree>
