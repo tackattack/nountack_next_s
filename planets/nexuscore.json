@@ -1,5 +1,5 @@
 {
-	"name" : "Nexus",
+	"name" : "NEXUS",
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"Base" :
 	{
@@ -9,9 +9,9 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 3000,
-		"inclination" : 45,
-		"primaryBody" : "TIMBER_HEARTH",
+		"semiMajorAxis" : 12500,
+		"inclination" : 132,
+		"primaryBody" : "SUN",
 		"showOrbitLine" : true
 	},
 	"Signal" : 
