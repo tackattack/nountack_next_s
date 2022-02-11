@@ -84,7 +84,7 @@
 				<DialogueTarget>4</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Who?</Text>
+				<Text>What?</Text>
 				<DialogueTarget>4</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
