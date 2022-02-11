@@ -8,7 +8,8 @@
 			<Page>...</Page>
       		<Page>LIETFA KETOET.</Page>
       		<Page>TYPE: SEESORT_ONE.</Page>
-      		<Page>OUTPUT SET: ONE, FROM ZERO.</Page>
+      		<Page>CONNECTION CLASS: EXTERNAL VESSEL.</Page>
+      		<Page>OUTPUT SET: ONE (ZERO INTERPRETED), FROM ZERO.</Page>
 		</Dialogue>
 		
 		<DialogueOptionsList>
@@ -73,8 +74,8 @@
 		<Name>3</Name>
 		<Dialogue>
 			<Page>...</Page>
-			<Page>SOMETHING HAS DAMAGED OUR STORAGE.</Page>
-			<Page>INACCESIBLE. INACCESIBLE. INACCESIBLE.</Page>
+			<Page>SOMETHING HAS...<![CDATA[<Pause=1>]]> DAMAGED OUR STORAGE.</Page>
+			<Page>INACCESIBLE. INACCESIBLE. <b>INACCESIBLE.</b></Page>
 		</Dialogue>
 		
 		<DialogueOptionsList>
