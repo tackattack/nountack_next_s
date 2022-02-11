@@ -1,5 +1,5 @@
 {
-	"name" : "ETSAFOL SAITEP",
+	"name" : "SAITEP",
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"Base" :
 	{
@@ -9,7 +9,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 15000,
+		"semiMajorAxis" : 75000,
 		"inclination" : 110,
 		"primaryBody" : "SUN",
 		"showOrbitLine" : true
