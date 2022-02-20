@@ -1,0 +1,21 @@
+<DialogueTree>
+	<NameField>Tape</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Okay!</Page>
+			<Page>Start tape.. one. </Page>
+      		<Page>Okay, uh-<![CDATA[<Pause=2>]]> hello Arial..<![CDATA[<Pause=2>]]> or whoever is listening.</Page>
+      		<Page>This is the expedition log storage of Geoquester, serving under Arial.</Page>
+      		<Page>During a routine mining job assigned by Times New, Team Fourty-Seven found..<![CDATA[<Pause=1>]]> an unidentified object at the core of the Source. The ground surrounding the team and their Drill switched states, and they all fell in.</Page>
+      		<Page>It shouldn't have switched, the entire security team was watching.<![CDATA[<Pause=4>]]> Oh right, logs.</Page>
+      		<Page>They all vanished on contact with the object, or as Times New started calling it, the Zero.</Page>
+			<Page>Esperhand and the rest of the smarty-fucks hypothesised that it was a "two-way gate through space",<![CDATA[<Pause=2>]]> whatever the fuck that means.</Page>
+			<Page>My job is to go through this "gate",<![CDATA[<Pause=1>]]> and try to find Team Fourty-Seven.</Page>
+			<Page>Heavens below, its..<![CDATA[<Pause=1>]]> shimmery. Shiny things are nice, right? I hope so.</Page>
+			<Page>Shards, I..<![CDATA[<Pause=1>]]> I hope so.</Page>
+			<Page>End tape one.</Page>
+		</Dialogue>
+	</DialogueNode>

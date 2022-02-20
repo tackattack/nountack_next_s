@@ -1,0 +1,39 @@
+{
+	"name" : "Tape",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"Base" :
+	{
+		"surfaceSize" : 5,
+		"surfaceGravity" : 0,
+		"hasMapMarker" : false,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 5200,
+		"inclination" : 180,
+		"primaryBody" : "SUN",
+		"showOrbitLine" : false
+	},
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ "Frequency" : "Radio", "name" : "tape1", "AudioClip" : "OW_PR_ProbeInAirSound", "SourceRadius" : 2, "Position" : {"x": 0, "y": 0, "z": 0} }
+		]
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{ "assetBundle" : "planets/assets/nextprops", "path" : "Assets/lit_tapenext.prefab" }
+		],
+		"dialogue" :
+		[
+			{
+				"position": {"x": 0, "y": 0, "z": 0},
+				"xmlFile" : "planets/xml/tape-1.xml"
+			}
+		]
+
+	}
+}
