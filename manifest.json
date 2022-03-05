@@ -1,11 +1,10 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "tackattack",
-  "name": "nountack_next_S",
-  "uniqueName": "tackattack.nountack_next_s",
+  "author": "nountack",
+  "name": "Next Proper",
+  "uniqueName": "nountack.next_s",
   "version": "0.0.0",
   "owmlVersion": "2.1.0",
-  "dependencies": [
-    "xen.NewHorizons"
-  ]
+  "dependencies": [  "xen.NewHorizons"  ],
+  "conflicts": [ "nountack.next" ]
 }
