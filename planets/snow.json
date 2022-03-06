@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Placeholder_1",
+	"Base" : 
+	{
+		"groundSize" : 200,
+		"surfaceSize" : 201,
+		"surfaceGravity" : 12,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" : 
+	{
+		"semiMajorAxis" : 24300,
+		"inclination" : 33,
+		"primaryBody" : "Sun",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0
+	},
+	"Atmosphere" : 
+	{
+		"size" : 250,
+		"fogTint" : 
+		{
+			"r" : 200,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogSize": 250,
+		"fogDensity":0.2,
+		"hasSnow" : true
+	},
+	"Props" :
+	{
+		"Details" :
+		[
+			{
+				"assetBundle" : "planets/assets/snowday", "path" : "Assets/next_newpc/inasnowstorm.prefab", 
+				"position" : {"x": 0, "y": 250, "z": 0},  
+				"rotation" : {"x":0, "y": 0, "z": 0},
+				"scale" : 1,
+				"alignToNormal" : true
+			}
+		]
+	}
+}
