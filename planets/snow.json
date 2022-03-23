@@ -40,10 +40,10 @@
 		[
 			{
 				"assetBundle" : "planets/assets/snowday", "path" : "Assets/next_newpc/inasnowstorm.prefab", 
-				"position" : {"x": 0, "y": 250, "z": 0},  
-				"rotation" : {"x":0, "y": 0, "z": 0},
-				"scale" : 1,
-				"alignToNormal" : true
+				"position" : {"x": 0, "y": 201, "z": 0},  
+				"rotation" : {"x":270, "y": 90, "z": 0},
+				"scale" : 500,
+				"alignToNormal" : false
 			}
 		]
 	}
