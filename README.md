@@ -1,6 +1,16 @@
 ## NEXT
 ### a thing by nountackverb
 
-the actual one ok hahahahahahahahahahha lol kekw
+dont expect thimgns please oi mfd to 
 
-am i allowed to swear on github uh
+i m gonna randomly add shti tto his until its a good mod
+
+(which will be never ;})
+
+(;I)
+
+
+
+
+
+(;{)
