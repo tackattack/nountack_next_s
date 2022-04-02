@@ -14,13 +14,6 @@
 		"primaryBody" : "SUN",
 		"showOrbitLine" : true
 	},
-	"Signal" : 
-	{
-		"Signals" : 
-		[
-			{ "Frequency" : "Default", "Name" : "Nexus", "audioFilePath" : "planets/assets/col_aUAuAuAUUAuAuuaUAuAUuAu.mp3", "SourceRadius" : 1, "detectionRadius": 300, "identificationRadius" : 200 }
-		]
-	},
 	"Props" :
 	{
 		"Details" :
